@@ -1,6 +1,6 @@
 package Week1;
 
-public class Task2 {
+public class Task3 {
     public static void main(String[] args) {
         /*
          * 3. Write a program that prints the following output:
