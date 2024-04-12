@@ -8,20 +8,18 @@ public class task5 {
      * and product of them.
      */
     public static void main(String[] args) {
-        Scanner scanner1 = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("enter a number: ");
-        int num1 = scanner1.nextInt();
+        int num1 = scanner.nextInt();
 
-        Scanner scanner2 = new Scanner(System.in);
         System.out.print("enter another number: ");
-        int num2 = scanner2.nextInt();
+        int num2 = scanner.nextInt();
 
         int sum = num1 + num2;
         int product = num1 * num2;
 
         System.out.println("the sum is " + sum);
         System.out.println("the product is " + product);
-        scanner1.close();
-        scanner2.close();
+        scanner.close();
     }
 }
