@@ -12,11 +12,8 @@ public class task1 {
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
 
-        if (age >= 18) {
-            System.out.println("eligible to vote");
-        } else {
-            System.out.println("not eligible");
-        }
+        String a = age >= 18 ? "eligible" : "not eligible";
+        System.out.println(a);
         scanner.close();
     }
 }
