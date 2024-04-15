@@ -20,6 +20,7 @@ public class Variable {
         int intValue = -199;
         long longValue = 10000;
         float floatValue = 2.15f;
+        double doubleValue = 1.9364d;
         char charValue = 'l';
         boolean booleanValue = false;
 
@@ -43,5 +44,13 @@ public class Variable {
          * continue all and find the default value of all the
          * primitive datatype
          */
+
+        /* implicit casting smaller datatype to larger */
+        int newIntValue = 10;
+        double convertedInt = newIntValue;
+
+        /* explicit casting larget to smaller */
+        double newDoubleValue = 290.99;
+        int convertedDoubleValue = (int) newDoubleValue;
     }
 }
