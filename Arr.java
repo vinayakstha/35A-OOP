@@ -28,9 +28,6 @@ public class Arr {
         for (int i = 0; i < size; i++) {
             if (arr[i] == element) {
                 System.out.println("the index is: " + i);
-            } else {
-                System.out.print("array element not found");
-                break;
             }
         }
 
