@@ -43,7 +43,7 @@ public class OperatorClass {
         /*
          * here ternary operator takes expression? true statement:false statement
          * if the expression is true it takes the statement after the ?
-         * if the expression is false it takse the statement afte the :
+         * if the expression is false it takes the statement afte the :
          */
         String output = a > b ? "true statement" : "false statement";
         System.out.println(output);

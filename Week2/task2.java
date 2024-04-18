@@ -10,15 +10,15 @@ public class task2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter amount: ");
-        int amount = scanner.nextInt();
+        float amount = scanner.nextInt();
 
         System.out.print("Enter time: ");
-        int time = scanner.nextInt();
+        float time = scanner.nextInt();
 
         System.out.print("Enter rate: ");
-        int rate = scanner.nextInt();
+        float rate = scanner.nextInt();
 
-        int simpleInterest = (amount * time * rate) / 100;
+        float simpleInterest = (amount * time * rate) / 100;
         System.out.println(simpleInterest);
         scanner.close();
     }
