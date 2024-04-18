@@ -31,5 +31,21 @@ public class OperatorClass {
         System.out.println("roperator1 && roperator2 " + (roperator1 && roperator2));
         System.out.println("roperator1 or roperator2 " + (roperator1 || roperator2));
         System.out.println("not roperator2 " + (!roperator2));
+
+        // unary operator
+        int uNum1 = 10;
+        uNum1++;// equivalent to unum1=uNum1+1and changes the value from next line
+        ++uNum1;// equivalent to unum1 =unum2+1 and changes the value in this line
+        System.out.println(uNum1);
+
+        // ternary operator
+        int a = 10, b = 20;
+        /*
+         * here ternary operator takes expression? true statement:false statement
+         * if the expression is true it takes the statement after the ?
+         * if the expression is false it takse the statement afte the :
+         */
+        String output = a > b ? "true statement" : "false statement";
+        System.out.println(output);
     }
 }
