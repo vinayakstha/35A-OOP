@@ -6,9 +6,9 @@ public class task3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("enter length: ");
-        float l = scanner.nextInt();
+        float l = scanner.nextFloat();
         System.out.print("enter breadth: ");
-        float b = scanner.nextInt();
+        float b = scanner.nextFloat();
 
         float area = l * b;
         float perimenter = 2 * (l + b);
