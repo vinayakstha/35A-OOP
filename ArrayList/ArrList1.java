@@ -9,5 +9,6 @@ public class ArrList1 {
             list.add(i); // adds elements to the arrayList
         }
         System.out.println(list);
+        System.out.println(list.get(3));
     }
 }
