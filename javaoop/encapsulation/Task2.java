@@ -60,7 +60,7 @@ public class Task2 {
      * 
      */
     public static void main(String[] args) {
-        Book b1 = new Book("game of thrones", "Vinayak", 2020);
+        Book b1 = new Book("hell0", "Vinayak", 2020);
         b1.getInfo();
         b1.borrowBook();
         b1.getInfo();
