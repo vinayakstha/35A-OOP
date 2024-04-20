@@ -65,5 +65,6 @@ public class Task2 {
         b1.borrowBook();
         b1.getInfo();
         b1.returnBook();
+        b1.borrowBook();
     }
 }
